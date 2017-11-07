@@ -41,6 +41,7 @@ class EvalNtupleAnalysis
     TH1D* h_nevt_pileup_maps; 
     TH1D* h_den;
     TH1D* h_num;
+    TH1D* h_zvtx_res;
 
     std::map<unsigned int, unsigned int> npileup_den;
     std::map<unsigned int, unsigned int> npileup_num;
